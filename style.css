@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0f0;
+  /* justify-conxtent: center; */
+}
+.main-container {
+  display: flex;
+  background-color: #f5d04e;
+  width: 80vw;
+  height: 80vh;
+  justify-content: center;
+  margin: auto;
+  margin-top: 85px;
+  align-items: center;
+  box-shadow: 10px 10px 10px 12px grey;
+  /* flex-direction: column; */
+}
+.card {
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  width: 350px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 17px;
+  box-shadow: 10px 10px #000203;
+  /* align-items: center; */
+}
+.upper {
+  margin: 0;
+  height: 40%;
+  /* padding: ; */
+  /* margin: 0.5px 14px 14px 14px; */
+  /* border: 2px solid red; */
+  border-radius: 15px;
+}
+.card button {
+  background-color: #f3ce4a;
+  margin-top: 22px;
+  margin-left: 5px;
+
+  width: 78px;
+  padding: 4px;
+  /* padding-bottom: 0; */
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+.pub {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  /* margin-bottom: 12px; */
+}
+.card h2 {
+  font-weight: 800;
+  margin-top: 12px;
+}
+.text {
+  font-weight: 500;
+  color: #a1a1a1;
+  margin-top: 12px;
+}
+.avatar {
+  /* display: inline; */
+  width: 45px;
+  margin-top: 18px;
+  /* border: 2px solid red; */
+  margin-right: 8px;
+}
+.footer {
+  display: flex;
+  margin-top: 12px;
+  /* border: 2px solid red; */
+  /* display: inline; */
+  /* justify-content: space-evenly; */
+}
+#name {
+  padding-top: 30px;
+  /* margin-left: -4; */
+  font-weight: 800;
+}
